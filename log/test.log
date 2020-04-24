@@ -1,0 +1,1026 @@
+  [1m[35m (29.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 16:55:28 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 16:55:28 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 9.4ms | Allocations: 368)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 307)
+Completed 500 Internal Server Error in 341ms (ActiveRecord: 0.0ms | Allocations: 6127)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/kanta/workspace_6/sample_app_4/public/packs-test
+[Webpacker] Hash: 84929a3b39f03ccfd86d
+Version: webpack 4.43.0
+Time: 10875ms
+Built at: 2020-04-22 16:55:55
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-beb94e39e00d815806de.js    124 KiB  application  [emitted] [immutable]  application
+js/application-beb94e39e00d815806de.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-beb94e39e00d815806de.js js/application-beb94e39e00d815806de.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 28159ms (Views: 28103.3ms | ActiveRecord: 0.0ms | Allocations: 16858)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (26.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 17:14:03 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 17:14:03 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 13.9ms | Allocations: 367)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 14.5ms | Allocations: 317)
+Completed 500 Internal Server Error in 442ms (ActiveRecord: 0.0ms | Allocations: 10510)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 17:14:04 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 119)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.0ms | Allocations: 5978)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 859ms (Views: 818.8ms | ActiveRecord: 0.0ms | Allocations: 21349)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (5.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 17:41:08 +0900
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 17:41:08 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.9ms | Allocations: 374)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 2.4ms | Allocations: 324)
+Completed 500 Internal Server Error in 460ms (ActiveRecord: 0.0ms | Allocations: 10709)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 17:41:08 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 898ms (Views: 852.5ms | ActiveRecord: 0.0ms | Allocations: 24126)
+Completed 200 OK in 399ms (Views: 379.7ms | ActiveRecord: 0.0ms | Allocations: 11022)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 18:00:58 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 18:00:58 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.9ms | Allocations: 413)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 2.4ms | Allocations: 396)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 430ms (Views: 416.7ms | ActiveRecord: 0.0ms | Allocations: 19578)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 18:00:58 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 473ms (Views: 454.6ms | ActiveRecord: 0.0ms | Allocations: 23814)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 3104)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (7.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 18:07:03 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 18:07:03 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 4.1ms | Allocations: 347)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 358)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 403ms (Views: 383.3ms | ActiveRecord: 0.0ms | Allocations: 18304)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 449ms (Views: 427.8ms | ActiveRecord: 0.0ms | Allocations: 20263)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 18:07:03 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.5ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 1945)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (7.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 18:10:23 +0900
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 18:10:23 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 3.8ms | Allocations: 386)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 342)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 265ms (Views: 249.1ms | ActiveRecord: 0.0ms | Allocations: 20030)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 288ms (Views: 275.3ms | ActiveRecord: 0.0ms | Allocations: 21193)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 18:10:24 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 1931)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (26.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 18:52:12 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 18:52:12 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 17.5ms | Allocations: 385)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 25.9ms | Allocations: 1107)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1098ms (Views: 1050.4ms | ActiveRecord: 0.0ms | Allocations: 20558)
+Completed 200 OK in 1108ms (Views: 1058.5ms | ActiveRecord: 0.0ms | Allocations: 21021)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 18:52:13 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 15.9ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 1936)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (27.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 18:57:35 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 18:57:35 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 15.0ms | Allocations: 386)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.5ms | Allocations: 426)
+Completed 500 Internal Server Error in 454ms (ActiveRecord: 0.0ms | Allocations: 17504)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 18:57:35 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 49.3ms | Allocations: 260)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 657ms (Views: 611.6ms | ActiveRecord: 0.0ms | Allocations: 23341)
+Completed 200 OK in 190ms (Views: 187.4ms | ActiveRecord: 0.0ms | Allocations: 3767)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (29.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 20:55:12 +0900
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 20:55:12 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 19.3ms | Allocations: 345)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 48.8ms | Allocations: 1211)
+Completed 500 Internal Server Error in 817ms (ActiveRecord: 0.0ms | Allocations: 17825)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 20:55:13 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 11.9ms | Allocations: 611)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 263ms (Views: 258.6ms | ActiveRecord: 0.0ms | Allocations: 5833)
+Completed 200 OK in 1096ms (Views: 1032.7ms | ActiveRecord: 0.0ms | Allocations: 24835)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (26.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-22 21:03:21 +0900
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-22 21:03:21 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 5.2ms | Allocations: 386)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 3.4ms | Allocations: 446)
+Completed 500 Internal Server Error in 289ms (ActiveRecord: 0.0ms | Allocations: 17587)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-22 21:03:22 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 364ms (Views: 322.5ms | ActiveRecord: 0.0ms | Allocations: 24354)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 82ms (Views: 79.1ms | ActiveRecord: 0.0ms | Allocations: 6112)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (27.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-23 17:52:32 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-23 17:52:32 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 7.4ms | Allocations: 884)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 182.4ms | Allocations: 5743)
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.0ms | Allocations: 8438)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-23 17:52:32 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 15.1ms | Allocations: 158)
+Completed 500 Internal Server Error in 6116ms (ActiveRecord: 0.0ms | Allocations: 65545)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (23.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-23 18:02:36 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-23 18:02:36 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 4.7ms | Allocations: 386)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 80.7ms | Allocations: 7507)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms | Allocations: 10279)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-23 18:02:36 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 35.8ms | Allocations: 1176)
+  [1m[35m (5.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-23 18:04:42 +0900
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-23 18:04:42 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 2.9ms | Allocations: 497)
+  [1m[35m (21.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-23 18:09:28 +0900
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-23 18:09:28 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 4.0ms | Allocations: 386)
+Completed 500 Internal Server Error in 10612ms (ActiveRecord: 0.0ms | Allocations: 86014)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-23 18:09:39 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 43.0ms | Allocations: 183)
+Completed 500 Internal Server Error in 1464ms (ActiveRecord: 0.0ms | Allocations: 37835)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 16069.1ms | Allocations: 154472)
+Completed 500 Internal Server Error in 16245ms (ActiveRecord: 0.0ms | Allocations: 161527)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (25.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-23 20:58:54 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-23 20:58:54 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 58.6ms | Allocations: 402)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6287.0ms | Allocations: 103697)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6474ms (Views: 6387.7ms | ActiveRecord: 0.0ms | Allocations: 108134)
+Completed 200 OK in 6480ms (Views: 6396.1ms | ActiveRecord: 0.0ms | Allocations: 108676)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-23 20:59:01 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 9.4ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 2009)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (26.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-24 00:07:18 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-24 00:07:18 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 67.3ms | Allocations: 400)
+Completed 500 Internal Server Error in 10735ms (ActiveRecord: 0.0ms | Allocations: 179271)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-24 00:07:29 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 96.1ms | Allocations: 123)
+Completed 500 Internal Server Error in 235ms (ActiveRecord: 0.0ms | Allocations: 3653)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9730.4ms | Allocations: 184212)
+Completed 500 Internal Server Error in 11045ms (ActiveRecord: 0.0ms | Allocations: 189935)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (5.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-24 00:08:56 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-24 00:08:56 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 4.7ms | Allocations: 407)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1432.1ms | Allocations: 138283)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 141)
+  Rendered layouts/_shim.html.erb (Duration: 0.7ms | Allocations: 137)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 289)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 180)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 45)
+Completed 200 OK in 1776ms (Views: 1759.2ms | ActiveRecord: 0.0ms | Allocations: 145150)
+Completed 200 OK in 1798ms (Views: 1732.1ms | ActiveRecord: 0.0ms | Allocations: 145077)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-24 00:08:58 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 2220)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (26.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-24 13:04:54 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-24 13:04:54 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 14.9ms | Allocations: 400)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 951.8ms | Allocations: 19046)
+Completed 500 Internal Server Error in 1107ms (ActiveRecord: 0.0ms | Allocations: 22161)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-24 13:04:55 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 74.5ms | Allocations: 175)
+Completed 500 Internal Server Error in 3343ms (ActiveRecord: 0.0ms | Allocations: 64894)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 5.7ms | Allocations: 102)
+  Rendered layouts/_header.html.erb (Duration: 39.9ms | Allocations: 247)
+  Rendered layouts/_footer.html.erb (Duration: 8.2ms | Allocations: 169)
+Completed 200 OK in 8153ms (Views: 8148.8ms | ActiveRecord: 0.0ms | Allocations: 129261)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (6.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-24 13:07:11 +0900
+Started GET "/static_pages/contact" for 127.0.0.1 at 2020-04-24 13:07:11 +0900
+Processing by StaticPagesController#contact as HTML
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 3.9ms | Allocations: 231)
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 6.7ms | Allocations: 527)
+Completed 500 Internal Server Error in 2132ms (ActiveRecord: 0.0ms | Allocations: 145001)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-24 13:07:13 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 157.0ms | Allocations: 36431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 2.4ms | Allocations: 1370)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 175)
+Completed 200 OK in 191ms (Views: 187.5ms | ActiveRecord: 0.0ms | Allocations: 41110)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-24 13:07:14 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 9.1ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 80)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 45)
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 3193)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 2415ms (Views: 2398.5ms | ActiveRecord: 0.0ms | Allocations: 194060)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (9.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/contact" for 127.0.0.1 at 2020-04-24 14:03:52 +0900
+Started GET "/static_pages/home" for 127.0.0.1 at 2020-04-24 14:03:52 +0900
+Processing by StaticPagesController#home as HTML
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 4.1ms | Allocations: 359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 258)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 178)
+Completed 200 OK in 3481ms (Views: 3419.0ms | ActiveRecord: 0.0ms | Allocations: 152344)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3731.5ms | Allocations: 159596)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 3843ms (Views: 3807.6ms | ActiveRecord: 0.0ms | Allocations: 165123)
+Started GET "/static_pages/help" for 127.0.0.1 at 2020-04-24 14:03:56 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.2ms | Allocations: 275)
+Started GET "/static_pages/about" for 127.0.0.1 at 2020-04-24 14:03:56 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 22)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 80)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 3494)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 40.0ms | Allocations: 1566)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 59ms (Views: 55.4ms | ActiveRecord: 0.0ms | Allocations: 3689)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (48.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2020-04-24 15:22:28 +0900
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:22:28 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 40.7ms | Allocations: 603)
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5586.3ms | Allocations: 163195)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 21.7ms | Allocations: 145)
+  Rendered layouts/_shim.html.erb (Duration: 51.6ms | Allocations: 360)
+  Rendered layouts/_header.html.erb (Duration: 79.0ms | Allocations: 328)
+  Rendered layouts/_header.html.erb (Duration: 55.8ms | Allocations: 304)
+  Rendered layouts/_footer.html.erb (Duration: 78.5ms | Allocations: 216)
+Completed 200 OK in 6556ms (Views: 6422.3ms | ActiveRecord: 0.0ms | Allocations: 169805)
+  Rendered layouts/_footer.html.erb (Duration: 114.0ms | Allocations: 539)
+Completed 200 OK in 6573ms (Views: 6465.5ms | ActiveRecord: 0.0ms | Allocations: 169815)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/contact" for 127.0.0.1 at 2020-04-24 15:22:35 +0900
+Processing by StaticPagesController#contact as HTML
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:22:35 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2288)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 5.8ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 73)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+Completed 200 OK in 97ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 5626)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (5.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/help" for 127.0.0.1 at 2020-04-24 15:24:46 +0900
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:24:46 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 16.1ms | Allocations: 1398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 255)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 179)
+Completed 200 OK in 1766ms (Views: 1747.8ms | ActiveRecord: 0.0ms | Allocations: 152278)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2020-04-24 15:24:48 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 80)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 2253)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:24:48 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 297)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 45)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 2285)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2020-04-24 15:24:48 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 80)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 2250)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2229.3ms | Allocations: 163728)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 72)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 2275ms (Views: 2261.2ms | ActiveRecord: 0.0ms | Allocations: 167971)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (6.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2020-04-24 15:27:40 +0900
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:27:40 +0900
+Processing by StaticPagesController#help as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.9ms | Allocations: 506)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 111)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 255)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 179)
+Completed 200 OK in 1612ms (Views: 1596.2ms | ActiveRecord: 0.0ms | Allocations: 145451)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2020-04-24 15:27:41 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 80)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 2318)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:27:41 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 297)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 2285)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2020-04-24 15:27:41 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.9ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 80)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 2248)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1932.3ms | Allocations: 162976)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 72)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+Completed 200 OK in 1975ms (Views: 1962.5ms | ActiveRecord: 0.0ms | Allocations: 167225)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/about" for 127.0.0.1 at 2020-04-24 15:34:03 +0900
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:34:03 +0900
+Processing by StaticPagesController#about as HTML
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 3.9ms | Allocations: 508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 1.7ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 297)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 195)
+Completed 200 OK in 1625ms (Views: 1609.3ms | ActiveRecord: 0.0ms | Allocations: 157843)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/help" for 127.0.0.1 at 2020-04-24 15:34:05 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 12.5ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 65)
+Completed 200 OK in 28ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 2305)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/" for 127.0.0.1 at 2020-04-24 15:34:05 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 63)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 2331)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------
+StaticPagesControllerTest: test_should_get_contact
+--------------------------------------------------
+Started GET "/contact" for 127.0.0.1 at 2020-04-24 15:34:05 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 65)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 2305)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2196.7ms | Allocations: 175529)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 56)
+Completed 200 OK in 2241ms (Views: 2228.2ms | ActiveRecord: 0.0ms | Allocations: 179820)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
